@@ -10,4 +10,6 @@ A = np.array(
 )
 b = np.array( [1.0, 4.0, 2.0] )
 print(np.dot(A,b))
-
+linalg.inv(A)
+linalg.det(A)
+linalg.solve(A, b)
